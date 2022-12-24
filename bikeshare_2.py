@@ -14,7 +14,7 @@ def get_city():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city=''
     while city.lower() not in CITY_DATA.keys():
-        print('choose from: chicago, washington or new york city')
+        print('choose from: Chicago, Washington or New York City')
         city= input().lower()
 
         if city=='chicago':
